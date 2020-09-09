@@ -1,0 +1,31 @@
+table.tableStyle {
+    width: 100%;
+    text-align: left;
+  }
+  table.tableStyle td, table.tableStyle th {
+    border: 0px solid #AAAAAA;
+    padding: 3px 2px;
+  }
+  table.tableStyle tbody td {
+    font-size: 13px;
+    color: #092233;
+  }
+  table.tableStyle thead {
+      border-bottom: 2px solid #1C6EA4;
+  }
+  table.tableStyle thead th {
+    font-size: 15px;
+    font-weight: normal;
+    color: #1C6EA4;
+    text-align: left;
+  }
+  table.tableStyle tfoot {
+    font-size: 14px;
+    font-weight: normal;
+    color: #1C6EA4;
+    border-top: 2px solid #1C6EA4;
+  }
+  table.tableStyle tfoot td {
+    font-size: 14px;
+  }
+

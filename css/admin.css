@@ -1,0 +1,67 @@
+.admin {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: -1;
+}
+
+.admin h1{
+    margin-top: 100px;
+    color: #00336e;
+    font-size: 2vw;
+    text-align: center;
+}
+
+table.adminTable {
+    border: 1px solid #1C6EA4;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.adminTable td, table.adminTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+  }
+  table.adminTable tbody td {
+    font-size: 13px;
+    color: #333333;
+  }
+  table.adminTable tr:nth-child(even) {
+    background: #E7E6EA;
+  }
+  table.adminTable thead {
+      border-bottom: 2px solid #1C6EA4;
+  }
+  table.adminTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1C6EA4;
+    border-left: 2px solid #D0E4F5;
+  }
+  table.adminTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.adminTable tfoot {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #D0E4F5;
+    background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    border-top: 2px solid #444444;
+  }
+  table.adminTable tfoot td {
+    font-size: 15px;
+  }
+  table.adminTable tfoot .links {
+    text-align: right;
+  }
+  table.adminTable tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }

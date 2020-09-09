@@ -1,0 +1,8 @@
+.items table{
+    border: 1px;
+}
+.items td img {
+    width: 60%;
+    height: auto;
+    text-align: center;
+}

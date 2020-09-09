@@ -1,0 +1,110 @@
+body{
+    background-color: white;
+    padding-top: 50px; /* This should be equal to the height of your header */
+}
+
+
+.banner_container{
+    position: relative;
+    text-align: center;
+    color: white;
+	z-index: -1;
+}
+
+/* Centered text on banner*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    font-style: italic;
+    color: white;
+}
+
+.category_container{
+    position: relative;
+    text-align: center;
+    size: 100%;
+    color: white;
+    
+}
+
+.category_title{
+    color:#00336e;
+    font-style:italic;
+    text-align:center;
+}
+
+.category{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.category img{
+    width: 150px;
+    height: auto;
+}
+
+.button {
+    background-color: #e1be64; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+  }
+
+
+.contents-under{
+    padding-top: 5%;
+}
+
+
+
+/* 
+h1{
+    color: #00336e;
+    font-size: 3vw;
+} */
+/* table {
+    width: 80%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: 2px #00336e;
+}
+td{
+    width:30%;
+    padding-top: auto;
+    color: #00336e;
+}
+
+td img{
+    width: 40%;
+    height: auto;
+}
+
+.row{
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row img{
+    width: 5%;
+    height: auto;
+}
+
+.col {
+    float: left;
+    text-align: bottom;
+}
+
+hr{
+    clear: both;
+} */
+
